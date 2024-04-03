@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css"/>
+    <link rel="icon" href="https://www.farsgamer.com/site/images/logo-icon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/jquery.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body dir="rtl" >
+    <header>
+        <section id="box-header" style="padding-right: 1.5rem;">
+            <section id="right-header">
+                <div id="box-menu-dashboard-pc">
+                    <img id="nave-menu-item-icon" class="open-menu-mobile" src="img/menu-pc.svg" alt="">
+                </div>
+
+                <div class="margin-horizontal-2">
+                    <a href="#"><img id="logo-mobile" src="img/logo-farsgamer.png" alt="لوگو"></a>
+                </div>
+
+                <div id="box-search-header">
+                    <img src="img/search.svg" id="icon-search-header" alt="">
+                    <input id="input-search-header" type="search" placeholder="جستجو در محصولات فارس گیمر">
+                </div>
+            </section>
+        
+            <section id="left-header">
+                <div id="box-icon-notif">
+                    <div id="icon-notif" class="nav-right-icon open-menu">
+                        <img src="img/notification.svg" alt="">
+
+                        <span class="number-notif-cart open-menu">1</span>
+                    </div>
+
+                    <div id="box-show-notif" class="hide-item over-menu">
+                        <div id="box-notif">
+                            <div id="header-box-notif">
+                                <span>اعلانات</span>
+        
+                                <img class="clothe-menu icon-exit-notif" src="img/add.svg" alt="">
+                            </div>
+        
+                            <div class="message-box-notif">
+                                <div class="header-message-notif">
+                                    <div class="item-personal-notif">
+                                        <span id="header-one-notif" class="item-notif personal">پیام های عمومی</span>
+                                    </div>
+            
+                                    <div class="item-general-notif">
+                                        <span id="header-two-notif" class="item-notif item-notif-active general"> پیام های شخصی <span style="color: red;"> (1) </span></span>
+                                    </div>
+                                </div>
+            
+                                <div id="message-notif-personal" class="hide-item">
+                                    <div class="box-asli-notif">
+                                        <div class="flex-box">
+                                            <span>پیام وجودی ندارد .</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="message-notif-general">
+                                    <div class="box-asli-notif">
+                                        <div class="box-header-notif">
+                                            <span class="item-clock-box-notif">20:59 10 اردیبهشت 1401</span>
+                
+                                            <span class="item-date-box-notif" dir="ltr">#FAG-1019244</span>
+                                        </div>
+                
+                                        <div class="box-message-notif">
+                                            <span>سلام رفیق، میدونم که حالت عالیه، با کمکت تا الان 4,029,000 تومان برای خیریه جمع آوری شده میتونی پنج شنبه هر هفته جزئیات کمک های جمع آوری شده برای خیریه رو از طریق اینستاگرام مشاهده کنی اینستاگرام ما : FarsGamerCom ممنون از انتخاب و اعتمادت - فارس گیمر نیاز هر گیمر - FarsGamer.com</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="box-asli-notif">
+                                        <div class="box-header-notif">
+                                            <span class="item-clock-box-notif">20:59 10 اردیبهشت 1401</span>
+                
+                                            <span class="item-date-box-notif" dir="ltr">#FAG-1019244</span>
+                                        </div>
+                
+                                        <div class="box-message-notif">
+                                            <span>سلام رفیق، میدونم که حالت عالیه، با کمکت تا الان 4,029,000 تومان برای خیریه جمع آوری شده میتونی پنج شنبه هر هفته جزئیات کمک های جمع آوری شده برای خیریه رو از طریق اینستاگرام مشاهده کنی اینستاگرام ما : FarsGamerCom ممنون از انتخاب و اعتمادت - فارس گیمر نیاز هر گیمر - FarsGamer.com</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div id="box3-notif">
+                                <a href="dash-notifications.html"><span>دیدن همه اعلانات</span></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="box-notif-clothe" class="exit-menu hide-item"></div>
+                </div>
+
+                <a href="cart.html">
+                    <div class="nav-right-icon cart-icon">
+                        <img src="img/shopping-cart.svg" alt="">
+                        <span class="number-notif-cart">1</span>
+                    </div>
+                </a>
+
+                <a href="dashboard.html">
+                    <div class="nav-right-icon login-icon">
+                        <img src="img/user.svg" alt="">
+                        <div class="box-user-name-dashboard">
+                            <span class="text-nav">Mohammad Ali Rasooli</span>
+                        </div>
+                    </div>
+                </a>
+            </section>
+        </section>
+
+        <div id="box-header-mobile-asli">
+            <section id="box-header-mobile">
+                <section id="right-header">
+                    <img id="nave-menu-item-icon" class="open-menu-mobile" src="img/menu.svg" alt="">
+                </section>
+    
+                <section id="center-header">
+                        <a href="#"><img id="logo-mobile" src="img/logo-farsgamer.png" alt="لوگو"></a>
+                </section>
+        
+                <section id="left-header">
+                    <div class="nav-right-icon-mobile clothe-menu-mobile">
+                        <img src="img/notification.svg" alt="">
+                        <span class="number-notif-cart-mobile">1</span>
+                    </div>
+
+                    <div id="notif-mobile">
+                        <div id="box-notif-mobile" class="hide-item">
+                            <div id="header-box-notif">
+                                <span>اعلانات</span>
+        
+                                <img class="icon-exit-notif clothe-menu-mobile" src="img/add.svg" alt="">
+                            </div>
+        
+                            <div class="message-box-notif">
+                                <div class="header-message-notif">
+                                    <div class="item-personal-notif personal-mobile">
+                                        <span id="header-three-notif" class="item-notif">پیام های عمومی</span>
+                                    </div>
+            
+                                    <div class="item-general-notif general-mobile">
+                                        <span id="header-four-notif" class="item-notif item-notif-active"> پیام های شخصی <span style="color: red;"> (1) </span></span>
+                                    </div>
+                                </div>
+            
+                                <div id="message-notif-general-mobile">
+                                    <div class="box-asli-notif">
+                                        <div class="box-header-notif">
+                                            <span class="item-clock-box-notif">20:59 10 اردیبهشت 1401</span>
+                
+                                            <span class="item-date-box-notif" dir="ltr">#FAG-1019244</span>
+                                        </div>
+                
+                                        <div class="box-message-notif">
+                                            <span>سلام رفیق، میدونم که حالت عالیه، با کمکت تا الان 4,029,000 تومان برای خیریه جمع آوری شده میتونی پنج شنبه هر هفته جزئیات کمک های جمع آوری شده برای خیریه رو از طریق اینستاگرام مشاهده کنی اینستاگرام ما : FarsGamerCom ممنون از انتخاب و اعتمادت - فارس گیمر نیاز هر گیمر - FarsGamer.com</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="message-notif-personal-mobile" class="hide-item">
+                                    <div class="box-asli-notif">
+                                        <div class="box-header-notif">
+                                            <span class="item-clock-box-notif">20:59 10 اردیبهشت 1401</span>
+                
+                                            <span class="item-date-box-notif" dir="ltr">#FAG-1019244</span>
+                                        </div>
+                
+                                        <div class="box-message-notif">
+                                            <span>سلام رفیق، میدونم که حالت عالیه، با کمکت تا الان 4,029,000 تومان برای خیریه جمع آوری شده میتونی پنج شنبه هر هفته جزئیات کمک های جمع آوری شده برای خیریه رو از طریق اینستاگرام مشاهده کنی اینستاگرام ما : FarsGamerCom ممنون از انتخاب و اعتمادت - فارس گیمر نیاز هر گیمر - FarsGamer.com</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="box-asli-notif">
+                                        <div class="box-header-notif">
+                                            <span class="item-clock-box-notif">20:59 10 اردیبهشت 1401</span>
+                
+                                            <span class="item-date-box-notif" dir="ltr">#FAG-1019244</span>
+                                        </div>
+                
+                                        <div class="box-message-notif">
+                                            <span>سلام رفیق، میدونم که حالت عالیه، با کمکت تا الان 4,029,000 تومان برای خیریه جمع آوری شده میتونی پنج شنبه هر هفته جزئیات کمک های جمع آوری شده برای خیریه رو از طریق اینستاگرام مشاهده کنی اینستاگرام ما : FarsGamerCom ممنون از انتخاب و اعتمادت - فارس گیمر نیاز هر گیمر - FarsGamer.com</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div id="box3-notif">
+                                <a href="dash-notifications.html"><span>دیدن همه اعلانات</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+
+            <section id="box2-header-mobile">
+                <section id="right-header-mobile">
+                    <div id="box-search-header-mobile">
+                        <img src="img/search.svg" id="icon-search-header" alt="">
+                        <input id="input-search-header-mobile" type="search" placeholder="جستجو در محصولات">
+                    </div>
+                </section>
+        
+                <section id="left-header">
+                    <a href="dashboard.html">
+                        <div class="nav-two-left-icon-mobile">
+                            <img src="img/user.svg" alt="">
+                            <span class="text-nav">ورود</span>
+                        </div>
+                    </a>
+
+                    <a href="cart.html" class="nav-left-icon-mobile">
+                        <div>
+                            <img src="img/shopping-cart.svg" alt="">
+                            <span class="number-notif-cart-mobile">1</span>
+                        </div>
+                    </a>
+                </section>
+            </section>
+        </div>
+    </header>
+
+    <main id="main-dashboard" class="flex-box flex-justify-space flex-">
+        <section id="right-dashboard">
+
+        </section>
+
+        <section id="left-dashboard">
+            <div class="box-header-dash-order flex-box flex-justify-space">
+                <span>تیکت ها</span>
+
+                <a href="create-ticket.html" class="btn-add-ticket-dashboard">ایجاد تیکت جدید</a>
+            </div>
+
+            <div class="box-tickets hide-item-pc">
+                <table class="table-tickets-dashboard">
+                    <thead>
+                        <tr>
+                            <th>شماره تیکت</th>
+    
+                            <th>موضوع تیکت</th>
+    
+                            <th>وضعیت تیکت</th>
+    
+                            <th>آخرین بروز رسانی</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>1234565</td>
+    
+                            <td> مشکل پرداخت خرید 12213123</td>
+    
+                            <td class="color-green">وضعیت باز</td>
+    
+                            <td class="color-black"> 2 ساعت قبل</td>
+    
+                            <td><a href="#" class="btn-open-ticket-dashboard">مشاهده تیکت</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>1234565</td>
+    
+                            <td> مشکل پرداخت خرید 12213123</td>
+    
+                            <td class="color-yel">در حال برسی</td>
+    
+                            <td class="color-black"> 2 ساعت قبل</td>
+    
+                            <td><a href="#" class="btn-open-ticket-dashboard">مشاهده تیکت</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>1234565</td>
+    
+                            <td> مشکل پرداخت خرید 12213123</td>
+    
+                            <td class="color-red">بسته</td>
+    
+                            <td class="color-black"> 2 ساعت قبل</td>
+    
+                            <td><a href="#" class="btn-open-ticket-dashboard">مشاهده تیکت</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="box-tickets-mobile hide-item-mobile">
+                <div class="box-item-ticket-dashbord-m">
+                    <div class="header">
+                        <div>
+                            <span class="title">شماره تیکت</span>
+
+                            <span>12312423</span>
+                        </div>
+
+                        <div>
+                            <span> 2 ساعت قبل</span>
+                        </div>
+                    </div>
+
+                    <div class="title">
+                        <span class="title">موضوع</span>
+
+                        <span> مشکل پرداخت خرید 12213123</span>
+                    </div>
+
+                    <div class="status">
+                        <span class="color-green">وضعیت باز</span>
+                    </div>
+
+                    <div class="btn">
+                        <a href="#" class="btn-open-ticket-dashboard">مشاهده تیکت</a>
+                    </div>
+                </div>
+
+                <div class="box-item-ticket-dashbord-m">
+                    <div class="header">
+                        <div>
+                            <span class="title">شماره تیکت</span>
+
+                            <span>12312423</span>
+                        </div>
+
+                        <div>
+                            <span> 2 ساعت قبل</span>
+                        </div>
+                    </div>
+
+                    <div class="title">
+                        <span class="title">موضوع</span>
+
+                        <span> مشکل پرداخت خرید 12213123</span>
+                    </div>
+
+                    <div class="status">
+                        <span class="color-yel">وضعیت در انتظار پاسخ</span>
+                    </div>
+
+                    <div class="btn">
+                        <a href="#" class="btn-open-ticket-dashboard">مشاهده تیکت</a>
+                    </div>
+                </div>
+
+                <div class="box-item-ticket-dashbord-m">
+                    <div class="header">
+                        <div>
+                            <span class="title">شماره تیکت</span>
+
+                            <span>12312423</span>
+                        </div>
+
+                        <div>
+                            <span> 2 ساعت قبل</span>
+                        </div>
+                    </div>
+
+                    <div class="title">
+                        <span class="title">موضوع</span>
+
+                        <span> مشکل پرداخت خرید 12213123</span>
+                    </div>
+
+                    <div class="status">
+                        <span class="color-red">وضعیت لسته</span>
+                    </div>
+
+                    <div class="btn">
+                        <a href="#" class="btn-open-ticket-dashboard">مشاهده تیکت</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer-dashboard" class="flex-box">
+        <div id="box-detalist-footer" class="flex-box margin-vetical-1">
+            <div class="item-box-footer flex-box flex-column">
+                <img src="img/security-footer.svg" alt="">
+                <span>حفظ اطلاعات</span>
+            </div>
+
+            <div class="item-box-footer flex-box flex-column">
+                <img src="img/time-chat.svg" alt="">
+                <span>پشتیبانی 24 ساعته</span>
+            </div>
+
+            <div class="item-box-footer flex-box flex-column">
+                <img src="img/pay-footer.svg" alt="">
+                <span>ضمانت پرداخت</span>
+            </div>
+
+            <div class="item-box-footer flex-box flex-column">
+                <img src="img/order-footer.svg" alt="">
+                <span>ثبت سفارش فوری</span>
+            </div>
+        </div>
+
+        <div class="about-footer">
+            <span>تیم فارس گیمر ( فورتنایت فا سابق ) از اوایل ماه مهر سال ۱۳۹۷ شروع به کار کرد و اولین فروشگاه در ایران بود که فقط محصولات بازی پر طرف دار فورتنایت را عرضه میکرد. بعد از گذشت 3 سال با توجه به نیاز جامعه گیمری ایران و موجود نبودن یک وب سایت تخصصی بالاخره فورتنایت فا تصمیم بر ایجاد یک مرجع تخصصی برای تمامی گیمر های ایران کرد، تا بتواند علاوه بر به ارمقان آوردن یک فروشگاه تخصصی در حوزه گیم تمامی نیاز های یک گیمر را برطرف سازد. </span>
+            <a href="#">  مشاهده بیشتر ... </a>
+        </div>
+
+        <div class="box-buttom-footer flex-box">
+            <div class="item-right-box-buttom-footer">
+                <div>
+                    <div class="address-footer">
+                        <div class="header-address-footer">
+                            <div class="text-header-address-footer">
+                                <span>آدرس :</span>
+                            </div>
+
+                            <div class="border-header-address-footer"></div>
+                        </div>
+
+                        <div class="message-address-footer">
+                            <span>تهران - سعادت آباد - مجتمع تجاری اپال - پلاک 749</span>
+                        </div>
+                    </div>
+
+                    <div class="clock-footer">
+                        <div class="header-address-footer">
+                            <div class="text-header-address-footer">
+                                <span>ساعت کاری :</span>
+                            </div>
+
+                            <div class="border-header-address-footer"></div>
+                        </div>
+
+                        <div class="message-address-footer">
+                            <div class="flex-box item-message-clock-footer">
+                                <div class="text-messag-clock-right">
+                                    <span>شنبه تا پنج شنبه</span>
+                                </div>
+
+                                <div class="border-header-clock-footer"></div>
+
+                                <div class="text-messag-clock-left">
+                                    <span>بصورت شبانه روزی</span>
+                                </div>
+                            </div>
+
+                            <div class="flex-box item-message-clock-footer">
+                                <div class="text-messag-clock-right">
+                                    <span>جمعه</span>
+                                </div>
+
+                                <div class="border-header-clock-footer"></div>
+
+                                <div class="text-messag-clock-left">
+                                    <span>15:00 الی 21:00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tell-footer">
+                    <span>تلفن تماس</span>
+
+                    <span>|</span>
+
+                    <a href="tel:021-91300908">
+                        <span dir="ltr">021-91300908</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="social-footer flex-box">
+                <div class="header-social-footer">
+                    <span>فارس گیمر در شبکه های اجتماعی</span>
+                </div>
+
+                <div class="message-social-footer flex-box">
+                    <div class="item-social-footer">
+                        <a href="#">
+                            <img id="twitter" src="img/twitter.svg" alt="">
+                            <img id="twitter-white" class="hide-item" src="img/twitter-white.svg" alt="">
+                        </a>
+                    </div>
+
+                    <div class="item-social-footer">
+                        <a href="#">
+                            <img id="instagram" src="img/instagram.svg" alt="">
+                            <img id="instagram-white" class="hide-item" src="img/instagram-white.svg" alt="">
+                        </a>
+                    </div>
+
+                    <div class="item-social-footer">
+                        <a href="#">
+                            <img id="telegram" src="img/telegram.svg" alt="">
+                            <img id="telegram-white" class="hide-item" src="img/telegram-white.svg" alt="">
+                        </a>
+                    </div>
+
+                    <div class="item-social-footer">
+                        <a href="#">
+                            <img id="discoard" src="img/discoard.svg" alt="">
+                            <img id="discoard-white" class="hide-item" src="img/discoard-white.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="trust-footer flex-box">
+                <div class="flex-box">
+                    <span>نماد اعتماد</span>
+                </div>
+
+                <div class="box-trust flex-box">
+                    <div class="box-item-trust flex-box">
+                        <div class="itme-trust">
+                            <a href="#">
+                                <img src="https://cdn.pay.ir/images/trust-logo/2.svg" alt="نماد اعتماد درگاه Pay.ir" width="60" height="85">
+                            </a>
+                        </div>
+
+                        <div class="itme-trust">
+                            <a href="#">
+                                <img src="https://cdn.pay.ir/images/trust-logo/2.svg" alt="نماد اعتماد درگاه Pay.ir" width="60" height="85">
+                            </a>
+                        </div>
+
+                        <div class="itme-trust">
+                            <a href="#">
+                                <img src="https://cdn.pay.ir/images/trust-logo/2.svg" alt="نماد اعتماد درگاه Pay.ir" width="60" height="85">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="box-item-trust flex-box">
+                        <div class="itme-trust">
+                            <a href="#">
+                                <img src="https://cdn.pay.ir/images/trust-logo/2.svg" alt="نماد اعتماد درگاه Pay.ir" width="60" height="85">
+                            </a>
+                        </div>
+
+                        <div class="itme-trust">
+                            <a href="#">
+                                <img src="https://cdn.pay.ir/images/trust-logo/2.svg" alt="نماد اعتماد درگاه Pay.ir" width="60" height="85">
+                            </a>
+                        </div>
+
+                        <div class="itme-trust">
+                            <a href="#">
+                                <img src="https://cdn.pay.ir/images/trust-logo/2.svg" alt="نماد اعتماد درگاه Pay.ir" width="60" height="85">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
