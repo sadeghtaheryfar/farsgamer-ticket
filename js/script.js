@@ -53,7 +53,21 @@ if(decrementBtn != undefined)
             }
         });
     });
-}
+}//  script btn ..........................................................
+
+var box_page_create_ticket = document.querySelectorAll(".box-page-create-ticket");
+var  btn_next_page_create_ticket = document.querySelectorAll(".btn-next-page-create-ticket");
+
+btn_next_page_create_ticket.forEach((btn_next_page_create_ticket,index) => {
+    btn_next_page_create_ticket.addEventListener('click', function handleClick(event) {
+        box_page_create_ticket.forEach(item => {
+            item.classList.add('hidden');
+        });
+
+        box_page_create_ticket[index + 1].classList.remove('hidden');
+    });
+});
+
 
 //  script range ......................................................
 

@@ -29,11 +29,13 @@
 
 .input-hover:hover{
     border-color: rgba(189, 189, 199) !important;
+    outline: 0px !important;
 }
 
 
 .input-hover:focus{
     border-color: rgba(61, 66, 223) !important;
+    outline: 0px !important;
 }
 
 /* css reset ..................................................................*/
@@ -750,6 +752,16 @@ main
     align-items: center;
     margin-top: 1rem;
     padding-bottom: 1rem;
+}
+
+
+#main-create-tickets{
+    min-height: calc(100vh - 5rem) !important;
+    padding: 2rem !important;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* style header ............................................................... */
@@ -5768,7 +5780,7 @@ input[type="range"]::-moz-range-thumb{
 
 .box-radio-form-product input {
     width: auto;
-    height: 2.7rem;
+    min-height: 2.7rem;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
